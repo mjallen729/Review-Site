@@ -22,7 +22,8 @@ export default class RestaurantsDAO {
 
 		if (filters) {
 			if ('name' in filters) {
-				query = {$text: {$search: filters['name']}}
+				// create text index in order to use
+				query = {$text: {$search: filters['name'], $language: 'none'}}
 
 			} else if ('cuisine' in filters) {
 				query = {'cuisine': {$eq: filters['cuisine']}}
