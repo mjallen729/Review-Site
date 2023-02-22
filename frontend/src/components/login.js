@@ -22,7 +22,7 @@ const Login = props => {
 		<div className='submit-form'>
 			<div>
 				<div className='form-group'>
-					<label htmlFor='user'>Username</label>
+					<label htmlFor='user'>Screen Name</label>
 					<input
 						type='text'
 						className='form-control'
@@ -35,7 +35,7 @@ const Login = props => {
 				</div>
 
 				<div className='form-group'>
-					<label htmlFor='id'>ID</label>
+					<label htmlFor='id'>Password</label>
 					<input
 						type='text'
 						className='form-control'
