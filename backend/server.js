@@ -1,3 +1,4 @@
+// Setting up the server for json and linking object containing API routings
 import express from 'express'
 import cors from 'cors'
 import restaurants from './api/restaurants.route.js'

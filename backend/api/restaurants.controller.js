@@ -1,3 +1,4 @@
+// Controller for the restaurants API route
 import RestaurantsDAO from "../dao/restaurantsDAO.js"
 
 export default class RestaurantsController {

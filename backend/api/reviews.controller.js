@@ -1,3 +1,4 @@
+// Controller for the reviews API route
 import ReviewsDAO from '../dao/reviewsDAO.js'
 
 export default class ReviewsController {

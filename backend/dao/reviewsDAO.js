@@ -1,3 +1,4 @@
+// Review data access object (interacts with MongoDB)
 import mongodb from 'mongodb'
 const ObjectId = mongodb.ObjectId
 
