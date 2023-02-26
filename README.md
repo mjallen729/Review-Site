@@ -1,5 +1,5 @@
 # Review-Site
-Webapp built as a practice project for using the MERN stack.
+Webapp built as a practice project for using the MERN stack. Web service hosted on Render.com and front end hosted on Vercel.
 
 https://review-site-alpha.vercel.app/
 
