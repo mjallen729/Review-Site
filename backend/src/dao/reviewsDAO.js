@@ -1,9 +1,10 @@
 // Review data access object (interacts with MongoDB)
 import mongodb from 'mongodb'
 const ObjectId = mongodb.ObjectId
+import dotenv from 'dotenv'
 
 let reviews
-
+dotenv.config()
 export default class ReviewsDAO {
 	static async injectDB(conn) {
 		if (reviews) {

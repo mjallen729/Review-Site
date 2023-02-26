@@ -1,8 +1,10 @@
 // Restaurant data access object (interacts with MongoDB)
 import mongodb from 'mongodb'
 const ObjectId = mongodb.ObjectId
+import dotenv from 'dotenv'
 
 let restaurants
+dotenv.config()
 
 export default class RestaurantsDAO {
 	static async injectDB(conn) {
