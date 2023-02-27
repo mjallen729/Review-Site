@@ -8,6 +8,6 @@ NOTE: Render free instances are spun down after 15 minutes of inactivity. This m
 ## Abilities
 Pseudo log-in functionality
 
-Create, edit, and delete reviews on many restaurants
+Create, edit, and delete reviews on all restaurants
 
 Filter restaurants by zip code, name, or cuisine
